@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -19,6 +20,7 @@ import br.com.temgi.api.model.EntregaModel;
 import br.com.temgi.api.model.input.EntregaInput;
 import br.com.temgi.domain.model.Entrega;
 import br.com.temgi.domain.repository.EntregaRepository;
+import br.com.temgi.domain.service.FinalizacaoEntregaService;
 import br.com.temgi.domain.service.SolicitacaoEntregaService;
 import lombok.AllArgsConstructor;
 
@@ -32,6 +34,7 @@ public class EntregaController {
 	
 	//private ModelMapper modelMapper;
 	private EntregaAssembler entregaAssembler;
+	private FinalizacaoEntregaService finalizacaoEntregaService;
 	
 	@PostMapping
 	@ResponseStatus(HttpStatus.CREATED)
@@ -58,5 +61,11 @@ public class EntregaController {
 //					EntregaModel entregaModel = modelMapper.map(entrega, EntregaModel.class);
 //				return ResponseEntity.ok(entregaModel);
 //				}).orElse(ResponseEntity.notFound().build());		
+	}
+	
+	@PutMapping("/{entregaId}/finalizacao")
+	@ResponseStatus(HttpStatus.NO_CONTENT)
+	public void finalizar(@PathVariable Long entregaId) {
+		finalizacaoEntregaService.finalizar(entregaId);
 	}
 }
