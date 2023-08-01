@@ -4,7 +4,7 @@
 </div>
 <br><br>
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Temgi/APILogistica/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Temgi/APILog/blob/main/LICENSE) 
 
 <p align="center">
 <img src="https://img.shields.io/badge/STATUS-completo-blue?style=for-the-badge">
