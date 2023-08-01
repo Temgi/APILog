@@ -14,7 +14,7 @@
 <p>A Aplicação é uma API-REST criada com SpringBoot sem Front-End, Oriunda da Semana do Mergulho Spring REST(MSR), evento organizado pela Algaworks. Essa API Foi Desenvolvida para o Controle de Entrega de Mercadorias em Logísticas, utilizando Recursos como Versionamento de Database, Collection Resources, Validação, Tratamento de Exceções, Padrão ISO-8601 para Data e Hora, Validation Group, Camada Domain Services, Padrão DTO, Validação em Cascata, Separação entre as Camadas de Domain Model e Representation Model, Sub-Recursos de API, Ação Não-CRUD(Processos de Negócios).
 Sendo Formada de End-Points envolvendo o Processo de Pedidos, tendo como Base as Entidades Entrega, Cliente, Destinatário, Ocorrência e Status.</p> 
 
-[Link do Projeto para Acesso Online](http://app-java.ddns.net:8082/clientes)
+<a href="http://app-java.ddns.net:8082/clientes" target="_blank" rel="noopener">Link do Projeto para Acesso Online</a>
 
 ## 📗 Sumário
 
