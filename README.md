@@ -33,17 +33,17 @@ Sendo Formada de End-Points envolvendo o Processo de Pedidos, tendo como Base as
 ## 💻 End-Point /Clientes para Listagem
 <br>
 
-![End-Point Listagem](https://github.com/Temgi/APILogistica/blob/main/assets/API-EndPoint1.png)
+![End-Point Listagem](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/API-EndPoint1.png)
 
 ## 🎨 End-Point /Clientes para Cadastro
 <br>
 
-![End-Point Cadastro](https://github.com/Temgi/APILogistica/blob/main/assets/API-EndPoint3.png)
+![End-Point Cadastro](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/API-EndPoint3.png)
 
 ## 👓 Organização de Pacotes
 <br>
 
-![Pacotes do Projeto](https://github.com/Temgi/APILogistica/blob/main/assets/PacotesProjeto.png)
+![Pacotes do Projeto](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/PacotesProjeto.png)
 
 ## ⚙️ Features
 
@@ -66,17 +66,17 @@ Sendo Formada de End-Points envolvendo o Processo de Pedidos, tendo como Base as
 ## 💡 End-Point /Clientes para Atualização
 <br>
 
-![End-Point Atualização](https://github.com/Temgi/APILogistica/blob/main/assets/API-EndPoint4.png)
+![End-Point Atualização](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/API-EndPoint4.png)
 
 ## 🛰️ End-Point /Clientes para Exclusão
 <br>
 
-![End-Point Exclusão](https://github.com/Temgi/APILogistica/blob/main/assets/API-EndPoint5.png)
+![End-Point Exclusão](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/API-EndPoint5.png)
 
 ## 🎯 Estrutura de Classes
 <br>
 
-![Estrutura de Classes](https://github.com/Temgi/APILogistica/blob/main/assets/EstruturaClasses.png)
+![Estrutura de Classes](https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/EstruturaClasses.png)
 
 ## 🚀 Tecnologias Utilizadas:
 ### Back-End
