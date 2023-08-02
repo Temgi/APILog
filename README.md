@@ -165,7 +165,7 @@ VALUES('Maria Abadia', 'mariaabadia@email.com', '11-99888-4444');
 - Acessar no Prompt de Comando o Caminho da Pasta [target] do Projeto [APILogistica]
 - No Prompt Executar o Comando [java -jar AppLogistica.jar]
 - Baixar o Collection Resources do Postman logo Abaixo:<br>
-  https://github.com/Temgi/APILogistica/blob/main/assets/API%20-%20Externo(Nuvem).zip
+  https://github.com/Temgi/APILogistica/blob/main/algalog-api/assets/API%20-%20Externo(Nuvem).zip
 - Abrir o Postman e Importar a Collection conforme Link Abaixo:<br>
   https://learning.postman.com/docs/getting-started/importing-and-exporting-data/
 
